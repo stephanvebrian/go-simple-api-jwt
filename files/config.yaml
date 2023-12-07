@@ -1,0 +1,8 @@
+port: ":8080"
+
+schedulers:
+  echo_job:
+    expression: "*/1 * * * *"
+
+the_api_config:
+  base_url: "http://13.212.226.116:8000/api"
